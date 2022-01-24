@@ -1,0 +1,52 @@
+ @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap'); 
+
+html,
+body{
+    height: 100%;
+}
+
+body {
+    background-color: #a5a5b1;
+    display: grid;
+    place-items: center;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 50px;
+    color: #6f707d;
+    font-family: 'Marcellus', serif
+}
+
+#mypara {
+    font-size: 45px;
+    color: #2b304d;
+}
+
+.temp {
+    place-items: center;
+}
+
+.temp-details>p>span,
+.black{
+    color: #a3acc1;
+    font-size: 12px;
+    padding: 1px 10px 1px 1px;
+}
+
+/* .fa {
+    color: #a5a5b1
+} */
+
+*:focus {
+    outline: none
+}
+
+#title {
+    font-size: 100px;
+}
